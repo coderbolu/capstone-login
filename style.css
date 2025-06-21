@@ -49,3 +49,17 @@ img{
    margin-top: 0.50rem;
    line-height: 0.70rem;
 }
+
+.btn1-foot{
+   color: #D5EFED;
+   width:1rem;
+   height: 1rem;
+}
+
+.btnID{
+   width:5rem;
+   height: 0.30rem;
+   background-color: black;
+   border-radius: 5rem;
+
+}
