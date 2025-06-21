@@ -71,10 +71,17 @@ img{
 
 .form-box {
    background-color: white;
-   display: flex;
+   display: grid;
    justify-self: end;
    flex-direction: column;
    width: 450px;
    max-height: 600px;
    padding: 1rem;
+   padding-top: 0;
+}
+
+h3 {
+   text-align: center;
+   font-size: 1.5rem;
+   font-weight: 500;
 }
