@@ -76,7 +76,7 @@ img{
    flex-direction: column;
    width: 450px;
    max-height: 600px;
-   padding: 2rem;
+   padding: 1.5rem;
    padding-top: 0;
 }
 
@@ -92,13 +92,13 @@ p {
 }
 
 label {
-   font-weight: 600;
+   font-weight:500;
    font-size: 0.80rem;
 }
 
 input {
    height: 40px;
+   width: 415px;
    padding-left: 15px;
    font-size: 0.70rem;
-   color: #F0F2F5;
 }
