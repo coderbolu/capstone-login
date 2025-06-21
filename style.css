@@ -23,16 +23,16 @@ body {
 .container {
    display: flex;
    flex-direction: row;
-   max-width: 1024px;
-   gap:4rem;
+   max-width: 1440px;
+   gap:5rem;
 }
 
 .left {
    background-color: white;
    display: flex;
    flex-direction: column;
-   max-width: 450px;
-   max-height: 700px;
+   width:600px;
+   height: 800px;
    padding: 3rem;
 }
 
@@ -55,8 +55,6 @@ img{
 
 .btn1-foot{
    display: flex;
-   justify-content: space-between;
-   background-color: #D5EFED;
    width:5rem;
    height: 0.30rem;
 }
@@ -68,10 +66,16 @@ img{
    border-radius: 5rem;
 }
 
+.btn2 {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
 .btnID2 {
    width:4rem;
    height: 0.30rem;
-   background-color: black;
+   background-color: #D5EFED;
    border-radius: 5rem;
 }
 
@@ -80,8 +84,8 @@ img{
    display: grid;
    justify-self: end;
    flex-direction: column;
-   width: 450px;
-   max-height: 700px;
+   width: 600px;
+   max-height: 800px;
    padding-left: 1.5rem;
    padding-top: 0;
 }
@@ -103,7 +107,7 @@ label {
 
 input {
    height: 50px;
-   width: 415px;
+   width: 565px;
    padding-left: 15px;
    font-size: 0.80rem;
    margin-bottom:0.50rem;
@@ -111,7 +115,7 @@ input {
 
 button {
    height: 50px;
-   width:435px;
+   width:575px;
    padding-left: 0;
    background:#26A69A;
    border: none;
@@ -121,5 +125,5 @@ button {
    border-radius: 5px;
    transition: all 500ms;
    cursor: pointer;
-   margin-left: -1rem;
+   margin-left:-0.60rem;
 }
