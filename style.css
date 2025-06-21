@@ -103,7 +103,8 @@ p {
 
 label {
    font-weight:500;
-   font-size: 0.90rem;
+   font-size: 0.95rem;
+   margin-bottom: -1rem;
 }
 
 input {
