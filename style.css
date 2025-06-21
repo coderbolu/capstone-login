@@ -35,7 +35,7 @@ body{
 
 img{
    max-width: 350px;
-   margin-top: 2rem;
+   margin-top: 1rem;
    margin-bottom: 1rem;
 }
 
@@ -47,4 +47,5 @@ img{
 
 .box p {
    margin-top: 0.50rem;
+   line-height: 0.70rem;
 }
