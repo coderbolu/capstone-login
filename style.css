@@ -4,6 +4,7 @@
    padding: 0;
    margin: 0;
    box-sizing: border-box;
+   font-family: var(--poppins);
 }
 
 :root {
@@ -15,7 +16,6 @@ body{
    display: flex;
    justify-content:center;
    align-items: center;
-   font-family: var(--OUTFIT);
    padding: 40px;
    position:relative;
    width: 100%;
