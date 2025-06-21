@@ -12,16 +12,20 @@
    /* #26A69A */
 }
 
-body{
+body {
    display: flex;
-   flex-direction: row;
    justify-content:center;
-   align-items: center;
    width: 100%;
    min-height: 100vh;
-   background-size: cover;
    background-color: #D5EFED;
-   padding: 10rem;
+   padding: 5rem;
+}
+
+.container {
+   display: flex;
+   flex-direction: row;
+   max-width: 900px;
+   gap:4rem;
 }
 
 .left {
@@ -63,4 +67,14 @@ img{
    height: 0.30rem;
    background-color: black;
    border-radius: 5rem;
+}
+
+.form-box {
+   background-color: white;
+   display: flex;
+   justify-self: end;
+   flex-direction: column;
+   width: 450px;
+   max-height: 600px;
+   padding: 1rem;
 }
