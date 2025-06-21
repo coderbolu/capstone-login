@@ -68,6 +68,13 @@ img{
    border-radius: 5rem;
 }
 
+.btnID2 {
+   width:4rem;
+   height: 0.30rem;
+   background-color: black;
+   border-radius: 5rem;
+}
+
 .form-box {
    background-color: white;
    display: grid;
