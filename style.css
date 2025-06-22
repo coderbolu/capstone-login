@@ -60,6 +60,42 @@ img{
    flex-wrap: wrap;
 }
 
+ .class1 {
+   background-color:black;
+   width:4.5rem;
+   height:0.20rem;
+   border-radius: 10px;
+}
+
+.class2 {
+   background-color: #D5EFED;
+   width:4.5rem;
+   height:0.20rem;
+   border-radius: 10px;
+}
+
+.class3 {
+   background-color: #D5EFED;
+   width:4.5rem;
+        height:0.20rem;
+        border-radius: 10px;
+    }
+
+.class4 {
+        background-color: #D5EFED;
+        width:4.5rem;
+        height:0.20rem;
+        border-radius: 10px;
+}
+
+.class5 {
+   background-color: #D5EFED;
+   width:4.5rem;
+   height:0.20rem;
+   border-radius: 10px;
+}
+
+
 .form-box {
    background-color: white;
    display: grid;
