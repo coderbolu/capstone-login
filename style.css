@@ -35,13 +35,13 @@ body {
    width:535px;
    height: 768px;
    padding: 5rem;
+   gap:2rem;
 }
 
 img{
    justify-content: center;
-   max-width: 441px;
-   margin-top: 1rem;
-   margin-bottom: 1rem;
+   width:441px;
+   padding-right: 4rem;
 }
 
 .box {
@@ -51,9 +51,10 @@ img{
 }
 
 .box p {
+   font-size: 0.80rem;
    margin-top: 0.50rem;
    line-height: 0.70rem;
-   padding-bottom: 2rem;;
+   padding-bottom: 3rem;
 }
 
 .flexbox {
