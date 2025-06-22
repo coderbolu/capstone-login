@@ -54,7 +54,11 @@ img{
    line-height: 0.70rem;
 }
 
-
+.flexbox {
+   display: flex;
+   margin-left: 0 20rem;
+   flex-wrap: wrap;
+}
 
 .form-box {
    background-color: white;
