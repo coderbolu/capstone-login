@@ -24,6 +24,7 @@ body {
    display: flex;
    flex-direction: row;
    max-width: 1440px;
+   max-height: 1024px;
    gap:5rem;
 }
 
@@ -31,8 +32,8 @@ body {
    background-color: white;
    display: flex;
    flex-direction: column;
-   width:600px;
-   height: 750px;
+   width:535px;
+   height: 768px;
    padding: 5rem;
 }
 
@@ -103,8 +104,8 @@ img{
    display: grid;
    justify-self: end;
    flex-direction: column;
-   width: 600px;
-   max-height: 750px;
+   width: 535px;
+   max-height: 768px;
    padding-left: 1.5rem;
    padding-top: 0;
 }
