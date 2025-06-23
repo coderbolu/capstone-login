@@ -50,8 +50,14 @@ img{
    line-height: 1rem;
 }
 
+.box h3 {
+   font-size: 1.1rem;
+   font-weight: 600;
+}
+
 .box p {
    font-size: 0.80rem;
+   font-weight: 500;
    margin-top: 0.50rem;
    line-height: 0.70rem;
    padding-bottom: 3rem;
