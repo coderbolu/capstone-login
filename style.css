@@ -192,8 +192,7 @@ img{
 .form-box {
    justify-self: end;
    flex-direction: column;
-   width: 535px;
-   max-height: 768px;
+   height: 768px;
    padding-left: 1.5rem;
    padding-top: 0;
 }
@@ -203,6 +202,12 @@ h2 {
    font-size: 2rem;
    font-weight: 600;
    margin-bottom: 0;
+}
+
+label {
+   font-weight:500;
+   font-size: 0.95rem;
+   margin-bottom: 1rem;
 }
 
 
