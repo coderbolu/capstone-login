@@ -208,7 +208,20 @@ label {
    font-weight:500;
    font-size: 0.95rem;
    margin-bottom: 1rem;
+   margin-left:1rem;
 }
+
+input {
+   height: 50px;
+   width: 470px;
+   padding-left: 15px;
+   font-size: 0.80rem;
+   margin-bottom:0.50rem;
+   margin-left:1rem;
+}
+
+
+
 
 
 
