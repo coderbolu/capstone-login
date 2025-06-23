@@ -157,10 +157,16 @@ button {
 
 
 @media (max-width: 768px) {
+body{
+   display: flex;
+   justify-content:center;
+   width: 100%;
+   min-height: 100vh;
+}
+
 .container {
    display: flex;
    flex-direction: column;
-   /* max-height: 1024px; */
    gap:5rem;
 }
 
@@ -168,7 +174,6 @@ button {
    display: flex;
    flex-direction: column;
    width:500px;
-   /* height: 768px; */
    padding: 5 1 5 1;
    gap:2rem;
 }
@@ -182,6 +187,22 @@ img{
 .box h3 {
    font-size: 1rem;
    font-weight: 600;
+}
+
+.form-box {
+   justify-self: end;
+   flex-direction: column;
+   width: 535px;
+   max-height: 768px;
+   padding-left: 1.5rem;
+   padding-top: 0;
+}
+
+h2 {
+   text-align: center;
+   font-size: 2rem;
+   font-weight: 600;
+   margin-bottom: 0;
 }
 
 
